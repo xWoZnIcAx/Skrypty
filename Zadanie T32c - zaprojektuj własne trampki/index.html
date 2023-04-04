@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Autor: Krystian Woźnica 2_IR</h1>
+<hr><br>
+
+  <h2>Formularz konkursu "Podrasuj swoje buty!"</h2><br>
+  Chcesz zamienic swoje stare trampki na nowa pare zaprojektowanych butów Forcefield? Napisz nam, dlaczego sadzisz
+  ze powinienes pozegnac sie ze swoimi wysluzonymi butami ,a byc moze zostaniesz jednym z laureatów konkursu!<br>
+
+  <fieldset>
+    <legend>Podstawowe dane</legend>
+    Imie i nazwisko <input type="text" id="imie"><br>
+    E-mail <input type="text" id="email"><br>
+    Telephone <input type="text" id="telefon"><br>
+    Moje buty są TAKIE stare <br>
+    <textarea>Nie wiecej niz 300 znakow</textarea>
+  </fieldset>
+  <h2>Zaprojektój własne trampki:</h2>
+  <fieldset>
+    <legend>Własny projekt butów</legend>
+    <fieldset>
+      <legend>Kolor (wybierz jeden)</legend>
+      <input type="radio" name="kolorButa" id="czerwony" value="czerwony">czerwony<br>
+      <input type="radio" name="kolorButa" id="niebieski" value="niebieski">niebieski<br>
+      <input type="radio" name="kolorButa" id="czarny" value="czarny">czarny<br>
+      <input type="radio" name="kolorButa" id="srebrny" value="srebrny">srebrny<br>
+    </fieldset>
+    <fieldset>
+      <legend>Opcje (mozesz wybrac kilka)</legend>
+      <input type="checkbox" name="dodatkowe" id="Blyszczące_sznurówki" value="Błyszczące sznurówki">Błyszczące sznurówki<br>
+      <input type="checkbox" name="dodatkowe" id="metalowe_logo" value="Metalowe logo">Metalowe logo<br>
+      <input type="checkbox" name="dodatkowe" id="swiecace_podeszwy" value="Świecące podeszwy">Świecące podeszwy<br>
+      <input type="checkbox" name="dodatkowe" id="mp3" value="Odtwarzacz MP3">Odtwarzacz MP3<br>
+    </fieldset>
+    <fieldset>
+      <legend>Rozmiar</legend>
+      <p>Rozmiar zgodny ze standardowymi rozmiarami butów
+        <select>
+          <option>35</option>
+          <option>36</option>
+          <option>37</option>
+          <option>38</option>
+          <option>39</option>
+          <option>40</option>
+          <option>41</option>
+          <option>42</option>
+          <option>43</option>
+          <option>44</option>
+          <option>45</option>
+          <option>46</option>
+          <option>47</option>
+      </select></p>
+
+    </fieldset>
+  </fieldset><br>
+  <button>Podrasuj swoje buty!</button>
+  <button>Resetuj</button>
+</body>
+<script src="main.js"></script>
+</html>
